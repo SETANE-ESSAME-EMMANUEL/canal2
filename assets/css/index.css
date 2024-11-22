@@ -112,3 +112,25 @@ header > button {
   font-size: 1.4rem;
   font-weight: 400;
 }
+.mid-section {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 0rem 2rem;
+  margin-top: 4rem;
+}
+.mid-section_conainers > img {
+  height: 35rem;
+  width: 33.9rem;
+  border-radius: 1rem;
+}
+.mid-section_conainers > h1 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--secondary-color);
+}
+.mid-section_conainers > p {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
