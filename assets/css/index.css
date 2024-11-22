@@ -3,10 +3,47 @@
   --primary-color: #ffffff;
   --secondary-color: hsl(125, 15%, 45%);
   --primary-font-familly: "IBM Plex Sans Hebrew", sans-serif;
-  --secondary-font-familly: ;
+  --primary-text-color: #000e01d6;
+  --secondary-text-color: #443434;
 }
-
+* {
+  color: var(--primary-text-color);
+}
 html {
   padding: 0;
   margin: 0;
+  font-family: var(--primary-font-familly);
+  font-size: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0rem 2rem;
+  font-size: 2rem;
+}
+nav {
+  display: flex;
+  gap: 2.4rem;
+}
+nav > a {
+  text-decoration: none;
+  font-weight: 400;
+}
+header > img {
+  height: 6.9rem;
+  width: 10.3rem;
+}
+
+header > button {
+  width: 20rem;
+  height: 6rem;
+  border-radius: 5rem;
+  box-shadow: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 2rem;
+  border: none;
 }
