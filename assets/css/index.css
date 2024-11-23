@@ -161,9 +161,10 @@ header > button {
 }
 .vosprogrammes_section1 > img {
   height: 37.1rem;
-  width: 50.8rem;
+  width: 54.8rem;
   border-radius: 2rem;
   flex: 1;
+  margin-right: 3rem;
 }
 .vosprogrammes_section1__text {
   flex: 1;
@@ -173,4 +174,33 @@ header > button {
 .vosprogrammes_section1__text > h1,
 p {
   color: var(--secondary-color);
+}
+.logo {
+  margin-top: 3rem;
+}
+.logo > img {
+  margin: 0.4rem 2rem 0rem 0rem;
+}
+.md {
+  margin-left: 10rem;
+}
+.vosprogrammes_section2 {
+  margin-top: 10rem;
+  display: flex;
+  gap: 40px;
+}
+.vosprogrammes_section2 > img {
+  height: 37.1rem;
+  width: 54.8rem;
+  border-radius: 2rem;
+  flex: 1;
+}
+.vosprogrammes_section2__text > h1,
+p {
+  color: var(--secondary-color);
+}
+.vosprogrammes_section2__text {
+  flex: 1;
+  font-size: 2rem;
+  font-weight: 100;
 }
