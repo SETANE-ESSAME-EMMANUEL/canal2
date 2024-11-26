@@ -5,6 +5,7 @@
   --primary-font-familly: "IBM Plex Sans Hebrew", sans-serif;
   --primary-text-color: #000e01d6;
   --secondary-text-color: #443434;
+  --btn-hover-color: hsl(125, 15%, 65%);
 }
 * {
   color: var(--primary-text-color);
@@ -51,6 +52,10 @@ header > button {
   font-size: 2rem;
   border: none;
   text-align: center;
+}
+
+header > button:hover {
+  box-shadow: 1rem 1rem 1rem var(--btn-hover-color);
 }
 .hero-section {
   width: 100%;
